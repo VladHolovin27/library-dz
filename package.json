@@ -1,0 +1,22 @@
+{
+    "name": "pnotify-5-in-vanilla-es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "dependencies": {
+      "@pnotify/confirm": "5.1.2",
+      "@pnotify/core": "5.1.2",
+      "@pnotify/mobile": "^5.2.0",
+      "puppeteer": "^21.7.0"
+    },
+    "devDependencies": {
+      "@babel/core": "7.2.0",
+      "@babel/preset-env": "^7.23.8",
+      "parcel-bundler": "^1.6.1"
+    },
+    "keywords": []
+  }
